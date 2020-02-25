@@ -1,0 +1,280 @@
+/* Big tablets to 1200px (width smaller than the 1140px) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+/* Small tablets to big tablets: from 768 to 1023px  */
+@media only screen and (max-width: 1023px) {
+
+    html {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .app-screen {
+        width: 50%;
+    }
+
+    .works-step {
+        margin-bottom: 40px;
+    }
+
+    .works-step:last-of-type {
+        margin-bottom: 60px;
+    }
+
+    .steps-box {
+        padding-left: 4%;
+    }
+
+    .steps-box:last-child {
+        margin-top: 100px;
+    }
+
+    .step-number {
+        padding: 8px;
+    }
+
+    .icon-small {
+        width: 17px;
+        margin-right: 5px;
+    }
+
+    .city-feature {
+        font-size: 90%;
+        margin-bottom: 12px;
+    }
+
+    .section-testinomials .row {
+        padding: 0 5%;
+    }
+
+    .plan-box div:first-child {
+        padding-bottom: 25px;
+    }
+
+    .plan-price-month {
+        font-size: 250%;
+        font-weight: 300;
+    }
+
+
+    .plan-box {
+        width: 100%;
+    }
+
+    .plan-box ul {
+        font-size: 90%;
+    }
+
+    .contact-form {
+        width: 80%;
+        margin-left: 10%
+    }
+
+
+}
+
+
+/* Small phones to small tablets: from 481 to 767px */
+@media only screen and (max-width: 767px) {
+
+    html {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 30px 0
+    }
+
+    /*
+    .main-nav {
+        display: none;
+    }
+    */
+
+    .nav-icon {
+        display: inline-block;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+
+    .main-nav {
+        float: left;
+        margin-top: 35px;
+        display: none;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav a:link,
+    .main-nav a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+    .sticky .main-nav {
+        margin-top: 10px;
+    }
+
+    .sticky .main-nav a:link,
+    .sticky .main-nav a:visited {
+        padding: 10px 0;
+    }
+
+    .sticky .nav-icon {
+        margin-top: 10px;
+    }
+
+    .sticky .icon-menu {
+        color: #555;
+    }
+
+
+
+
+
+    .hero-text-box {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 180%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    .long-copy {
+        width: 100%;
+        padding: 0 2%;
+        margin-left: 0%;
+    }
+
+
+    .col {
+        width: 100%;
+        margin: 0 0 5% 0;
+    }
+
+    .section-features .col {
+        text-align: center;
+    }
+
+    .box p {
+        padding: 0 10%;
+    }
+
+    .plan-box {
+        width: 90%;
+    }
+
+    .app-screen {
+        text-align: center;
+        width: 35%;
+    }
+
+    .steps-box:first-child {
+        text-align: center;
+    }
+
+    .steps-box:last-child {
+        margin-top: 5px;
+    }
+
+    .works-step {
+        margin-bottom: 30px;
+    }
+
+    .works-step:last-of-type {
+        margin-bottom: 30px;
+    }
+
+    .step-number {
+        height: 40px;
+        width: 40px;
+        padding: 4px;
+        font-size: 120%;
+        margin-right: 15px;
+    }
+
+    .works-step p {
+        padding-top: 0px;
+    }
+
+    .contact-form {
+        width: 80%;
+        margin-left: 10%
+    }
+
+    .contact-form .row:last-child .col {
+        margin: 0;
+    }
+
+    footer {
+        font-size: 60%;
+        padding: 30px;
+        text-align: center
+    }
+
+    .footer-nav {
+        float: none;
+    }
+
+    .social-links {
+        float: none;
+        margin-top: 30px;
+    }
+
+}
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    section {
+        padding: 25px 0;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .btn-full:link,
+    .btn-full:visited,
+    .btn-ghost:link,
+    .btn-ghost:visited,
+    input[type=submit] {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .btn-full:active,
+    .btn-full:hover,
+    .btn-ghost:active,
+    .btn-ghost:hover,
+    input[type=submit] {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+}
